@@ -1,7 +1,12 @@
 # Toxicity in Thai Tweet Corpus
 [![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc/4.0/)
 ## Annotated Corpus
-Each row contains label and tweet id as the example: ```label tweet_id```. Labels are following items:
+Each row contains label, annotation ratio between toxic/nontoxic (using 3 annotators) and tweet id as the example:
+```
+1[tab][3/0][tab]tweet_id
+```
+
+Labels are following items:
 * 1: Toxic
 * 0: Non-Toxic
 
